@@ -1,0 +1,29 @@
+#cfb-button {
+    position: fixed;
+    height: 50px;
+    z-index: 99999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px 20px 20px;
+    font-size: 12px;
+    line-height: 12px;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border: 1px solid #FFF;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+#cfb-button:hover {
+    filter: brightness(90%);
+    padding: 20px 5px 20px 30px;
+}
+#cfb-button i {
+    margin-left: 15px;
+}
